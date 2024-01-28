@@ -7,6 +7,7 @@ from .huggingface_text_gen import HuggingFaceTextGen
 from .langchain import LangchainLLM
 from .openai import OpenAI
 from .starcoder import Starcoder
+from .custopenai import CustOpenAI
 
 __all__ = [
     "LLM",
@@ -19,4 +20,5 @@ __all__ = [
     "HuggingFaceTextGen",
     "LangchainLLM",
     "Starcoder",
+    "CustOpenAI",
 ]
